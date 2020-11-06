@@ -1,12 +1,12 @@
 from tkinter import *
 from tkinter.font import Font
-import conway
+from game import *
 
 
 class Interface(object):
 
     def __init__(self):
-        self.game = conway.Game()
+        self.game = Game()
         self.create_interface()
         self.root.mainloop()
 
